@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times new Roman', Arial, sans-serif;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(134, 7, 7, 0.6)),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: solid;
+    color: white;
+    padding-inline: 1rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.mid-nav a {
+    font-size: 1.50rem;
+}
+
+.right-nav img {
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mid-info {
+    color: rgb(32, 18, 18);
+    padding: 15rem 5rem 0 5rem;
+}
+
+.name {
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.name span {
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+.work {
+    letter-spacing: 3.0px;
+}
+
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 8rem 6.5rem;
+    justify-content: space-between;
+}
+
+.sec-des-left {
+    width: 50ch;
+}
+
+.sec-des p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.sec-des img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0) 0px 1px 2px, rgb(100, 0, 0) 0px 2px 4px, rgb(80, 0, 0) 0px 4px 8px, rgba(85, 0, 0, 0.959) 0px 8px 16px, rgb(99, 0, 0) 0px 16px 32px, rgba(102, 0, 0, 0.897)px 64px;
+}
+
+.exp {
+    padding: 10.1rem 7.5rem;
+    background: #2c1717;
+    color: rgb(36, 8, 8);
+}
+
+.exp h3 {
+    background: #0c0909;
+    color: rgb(17, 25, 26);
+}
+
+.exp img {
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.exp-left {
+    order: 2;
+}
+
+.contact {
+    padding: 9rem 7.5rem;
+    color: rgb(12, 19, 19);
+}
+
+.contact > p {
+    color: rgb(10, 17, 17);
+}
+
+h2 {
+    font-size: 10rem;
+}
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.contact-text1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    color: rgb(7, 10, 10);
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(28, 41, 38);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+fonts.googleapis.com
+{
+    
+}
